@@ -1,0 +1,16 @@
+#1 Explain why a number data type added to a string data type returns a string.
+  A: When a number data type is added to a string data type, the result is a string because most programming languages automatically convert the number to a string before performing string concatenation (joining the characters together) when the "+" operator is used with a string involved, effectively treating the operation as a string manipulation rather than a mathematical addition.
+
+
+#2 Name a scenario where using the == operator could cause a bug.
+  A:Here is an example that I found:
+console.log(5 == "5");   // true (string "5" is converted to a number before comparison)
+console.log(5 === "5");  // false (no type conversion, types are different)
+
+
+#3 Name the operator(s) that you find confusing and explain why.
+A: Probably all of the equal signs are a little confusing to me right now just because I don't have practice with them. Aslo the modulus is a little confusing because I just don't know when I would use that.
+
+
+#4 Explain a situation where you would use the Modulus operator and why.
+  A: You would use the modulus operator ("%") in programming to find the remainder of a division operation, which is particularly useful when you need to check if a number is divisible by another number, perform operations on a repeating cycle (like every "n" iterations in a loop), or extract specific digits from a number based on a positional system (like getting the last digit of an integer). 
